@@ -1,0 +1,60 @@
+.chart-root {
+    -fx-background-color: #fde9ee;
+}
+
+.chart-header {
+    -fx-background-color: rgba(255,255,255,0.75);
+    -fx-border-color: rgba(179, 59, 54, 0.15);
+    -fx-border-width: 0 0 1 0;
+}
+
+.chart-title {
+    -fx-text-fill: #b63b36;
+    -fx-font-size: 18px;
+    -fx-font-weight: 800;
+}
+
+.chart, .chart-content {
+    -fx-background-color: transparent;
+}
+
+/* Plot area */
+.chart-plot-background {
+    -fx-background-color: rgba(255,255,255,0.65);
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: rgba(179, 59, 54, 0.12);
+}
+
+/* Grid lines */
+.chart-horizontal-grid-lines, .chart-vertical-grid-lines {
+    -fx-stroke: rgba(179, 59, 54, 0.12);
+    -fx-stroke-dash-array: 4 6;
+}
+
+/* Axis */
+.axis-label {
+    -fx-text-fill: #8f2f2b;
+    -fx-font-weight: 700;
+}
+
+.axis {
+    -fx-tick-label-fill: rgba(90, 35, 33, 0.75);
+}
+
+.axis .axis-tick-mark, .axis .axis-minor-tick-mark {
+    -fx-stroke: rgba(179, 59, 54, 0.25);
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+
+.chart-tooltip {
+    -fx-background-color: rgba(182, 59, 54, 0.95);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 8 10;
+    -fx-font-weight: 700;
+}
